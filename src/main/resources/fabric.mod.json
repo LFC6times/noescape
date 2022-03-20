@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "noescape",
+  "version": "${version}",
+  "name": "Noescape",
+  "description": "If players escape the set boundaries they get killed. pretty simple",
+  "authors": [
+    "6Times"
+  ],
+  "contact": {
+    "website": "iknowwhatimdoing.ml"
+  },
+  "license": "unlicense",
+  "icon": "assets/noescape/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "ml.ikwid.noescape.Noescape"
+    ]
+  },
+"mixins":[
+  "noescape.mixins.json"
+],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}

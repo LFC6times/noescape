@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ml.ikwid.noescape.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinCommandManager"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
